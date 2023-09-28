@@ -2,7 +2,7 @@ let weather = {
     "apiKey":  "095780be0d2a0e556ee508b10271a24d",
     fetchWeather: function (city) {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=" +
+            "https://api.openweathermap.org/data/2.5/weather?q=Philadelphia&appid=095780be0d2a0e556ee508b10271a24d&units=imperial" +
             + city
             + "&units=imperial&appid="
             + this.appKey
@@ -23,18 +23,24 @@ displayWeather: function(data) {
     document.querySelector('.temp').innerText = temp + '°F';
     document.querySelector('.humidity').innerText = 'humidity: ' + humidity + '%';
     document.querySelector('.wind').innerText = 'wind speed: ' + speed + 'km/h';
-}.
-search: function () {
-    this.fetchWeather(document.querySelector('.search-bar').value);
+
+  },
+  search: function () {
+    this.fetchWeather(document.querySelector(".search-bar").value);
   },
 };
 
-document.querySelector('.search button').addEventListener('click', function () {
-    weather.search();
+document.querySelector(".search button").addEventListener("click", function () {
+  weather.search();
 });
 
-document.querySelector('.search').addEventListener('keyup', function (event) { 
-if (event.key == 'Enter') {
-weather.search();
-}
-});
+document
+  .querySelector(".search-bar")
+  .addEventListener("keyup", function (event) {
+    if (event.key == "Enter") {
+      weather.search();
+    }
+  });
+
+
+weather.fetchWeather("Philadelphia");
