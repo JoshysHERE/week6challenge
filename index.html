@@ -8,22 +8,50 @@
     <script src="./assets/js/script.js" defer></script>
 <body>
 
-<div class = 'card'>
-    <div class = 'search'>
-      <div class = 'search-bar'>
-        <input type = 'text' placeholder='Enter The Cities Name'>
-   <button><p><img src="./images/loupe_428094.png"></img></p></button>
-</div>
-  <div class='weather'>
-    <h2 class="city">Weather In Philadelphia</h2>
-    <h1 class="temp">65°F</h1>
-    <img src="https://openweathermap.org/img/wn" alt="" class="icon" />
-        <div class="description">Party Cloudy</div>
-        <div class="humidity">Humidity: 10%</div>
-        <div class="wind">Wind: 3km/h</div>
-   </div>
-</div>
+<main>
 
+    <h1 id="Weather">Five Day Weather Forecast</h1>
+        <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+        <button type="button" onclick="GetInfo()">Click Me</button>        
+        <h2 id="cityName">Philadelphia</h2>
+    
+        <div id = "weatherContainer">
+            <div id="iconContainer">   
+
+                <div class = "icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="image"><img src="" class="imgClass" id=""></div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="maxValues" id="day1Max">Loading...</p>  
+                    
+                    <div class = "icons">
+                        <p class="weather" id="day2"></p>
+                        <div class="image"><img src="" class="imgClass" id=""></div>
+                        <p class="minValues" id="day1Min">Loading...</p>
+                        <p class="maxValues" id="day1Max">Loading...</p>  
+
+                        <div class = "icons">
+                            <p class="weather" id="day3"></p>
+                            <div class="image"><img src="" class="imgClass" id=""></div>
+                            <p class="minValues" id="day1Min">Loading...</p>
+                            <p class="maxValues" id="day1Max">Loading...</p>
+
+                            <div class = "icons">
+                                <p class="weather" id="day4"></p>
+                                <div class="image"><img src="" class="imgClass" id=""></div>
+                                <p class="minValues" id="day1Min">Loading...</p>
+                                <p class="maxValues" id="day1Max">Loading...</p> 
+
+                                <div class = "icons">
+                                    <p class="weather" id="day5"></p>
+                                    <div class="image"><img src="" class="imgClass" id=""></div>
+                                    <p class="minValues" id="day1Min">Loading...</p>
+                                    <p class="maxValues" id="day1Max">Loading...</p>
+                                </div>
+                            </div>
+                        </div>
+    
+</main>
 
 </body>
 </html>
