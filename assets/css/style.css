@@ -9,12 +9,15 @@ body{
 }
 
 .card {
+    font-size: 12px;
     text-align: center;
     background-color: darkgreen;
-    padding: 4em;
+    padding: 8em;
     width: 100%;
-    max-width: 500px;
-    margin: 2em;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 4em;
 
 }
 
@@ -54,3 +57,10 @@ button img {
     
 }
 
+
+.icon {
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 100px; 
+}
