@@ -1,0 +1,27 @@
+body {
+    font-family: serif
+}
+
+.weatherDay {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    box-shadow: 5px 10px 4px -1px rgba(0, 0, 0, 0.34);
+}
+
+.weatherDay img {
+    float: right;
+}
+
+.weatherDay p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weatherDay h2,
+.weatherDay h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
