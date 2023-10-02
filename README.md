@@ -17,7 +17,7 @@ You will be able to see the forecast and search for the forecast for any city
 ## How to Contribute
 n/a
 ## Tests
-### GitHub Pages Link:  
+### GitHub Pages Link:  https://joshyshere.github.io/week6challenge/
 
 ### Github Repo Link:  https://github.com/JoshysHERE/week6challenge
 
