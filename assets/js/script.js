@@ -9,7 +9,6 @@ let gotPosition = function(pos) {
 let getForecast = function(lat, long) {
   let url = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + long + "&appid=095780be0d2a0e556ee508b10271a24d";
   getWeatherText(url);
-
 }
 
 async function getWeatherText(url) {
@@ -25,7 +24,7 @@ let parseWeather = function(weatherText) {
   console.log(weatherJSON);
   let dailyForecast = weatherJSON.daily;
   //console.log(dailyForecast);
-  for (x = 0; x < dailyForecast.length; x++) {
+  for (x = 0; x < dailyForecast; x++) {
       let day = dailyForecast[x];
       let today = new Date().getDay() + x;
       if (today > 6) {
