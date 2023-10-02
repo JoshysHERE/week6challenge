@@ -19,6 +19,6 @@ n/a
 ## Tests
 ### GitHub Pages Link:  
 
-### Github Repo Link:  
+### Github Repo Link:  https://github.com/JoshysHERE/week6challenge
 
 ### My Portfolio: https://joshyshere.github.io/joshsportfolio/
