@@ -7,7 +7,7 @@ n/a
 ## Installation
 No install needed
 ## Usage
-
+![Screenshot 2023-10-02 at 6 06 16 PM](https://github.com/JoshysHERE/week6challenge/assets/141682993/70ffb2e6-2578-4134-b3f2-0b67747c4a68)
 ## License
 n/a
 ## Badges
